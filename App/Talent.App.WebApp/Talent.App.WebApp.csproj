@@ -13,12 +13,16 @@
 
   <ItemGroup>
     <Compile Remove="wwwroot\js\react\node_modules\**" />
+    <Compile Remove="wwwroot\js\react\ReactScripts\Form\CreateJob1122\**" />
     <Compile Remove="wwwroot\js\react\ReactScripts\NewFolder\**" />
     <Content Remove="wwwroot\js\react\node_modules\**" />
+    <Content Remove="wwwroot\js\react\ReactScripts\Form\CreateJob1122\**" />
     <Content Remove="wwwroot\js\react\ReactScripts\NewFolder\**" />
     <EmbeddedResource Remove="wwwroot\js\react\node_modules\**" />
+    <EmbeddedResource Remove="wwwroot\js\react\ReactScripts\Form\CreateJob1122\**" />
     <EmbeddedResource Remove="wwwroot\js\react\ReactScripts\NewFolder\**" />
     <None Remove="wwwroot\js\react\node_modules\**" />
+    <None Remove="wwwroot\js\react\ReactScripts\Form\CreateJob1122\**" />
     <None Remove="wwwroot\js\react\ReactScripts\NewFolder\**" />
   </ItemGroup>
 
@@ -32,6 +36,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="wwwroot\js\react\ReactScripts\Employer\ManageJob\JobSummaryCard.jsx" />
+    <None Include="wwwroot\js\react\ReactScripts\Employer\ManageJob\ManageJob.jsx" />
     <None Include="wwwroot\util\NotificationFx\fonts\codropsicons\codropsicons.svg" />
     <None Include="wwwroot\util\NotificationFx\fonts\linecons\linecons.svg" />
     <None Include="wwwroot\util\NotificationFx\js\classie.js" />
